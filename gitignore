@@ -1,0 +1,9 @@
+# Idea
+*.eml
+*.iml
+.idea/
+
+# Binaries
+bin/
+gen/
+
