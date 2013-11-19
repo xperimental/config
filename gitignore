@@ -1,3 +1,9 @@
+# Backup
+*~
+
+# Mac OSX
+.DS_Store
+
 # Idea
 *.eml
 *.iml
@@ -6,4 +12,8 @@
 # Binaries
 bin/
 gen/
+target/
+
+# Other
+YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
 
