@@ -14,6 +14,9 @@ bin/
 gen/
 target/
 
+# JS Libraries
+node_modules/
+
 # Other
 YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
 
