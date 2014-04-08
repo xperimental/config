@@ -1,0 +1,12 @@
+[user]
+	name = Robert Jacob
+[alias]
+	glog = log --all --oneline --color --graph --date=relative --decorate
+	nuke = reset --hard HEAD
+	options = config --global -e
+[color]
+	ui = auto
+[push]
+	default = current
+[pull]
+	rebase = true
