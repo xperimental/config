@@ -1,9 +1,12 @@
 [user]
 	name = Robert Jacob
 [alias]
-	glog = log --all --oneline --color --graph --date=relative --decorate
+	glog = log --oneline --color --graph --date=relative --decorate
 	nuke = reset --hard HEAD
 	options = config --global -e
+	co = checkout
+	st = status
+	ci = commit
 [color]
 	ui = auto
 [push]
