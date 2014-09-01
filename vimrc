@@ -7,3 +7,4 @@ let g:HardMode_level = 'wannabe'
 autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
 nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 
+let g:airline_powerline_fonts=1
