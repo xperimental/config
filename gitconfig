@@ -7,6 +7,8 @@
 	co = checkout
 	st = status
 	ci = commit
+	rb = rebase
+	rbi = rebase --interactive
 	unmerged = log --oneline --graph --decorate --simplify-by-decoration --boundary --branches --not
 [color]
 	ui = auto
