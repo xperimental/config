@@ -3,12 +3,14 @@
 [alias]
 	glog = log --oneline --color --graph --date=relative --decorate
 	nuke = reset --hard HEAD
+	prefs = config --system -e
 	options = config --global -e
 	co = checkout
 	st = status
 	ci = commit
 	rb = rebase
 	rbi = rebase --interactive
+	ap = add -p
 	unmerged = log --oneline --graph --decorate --simplify-by-decoration --boundary --branches --not
 [color]
 	ui = auto
