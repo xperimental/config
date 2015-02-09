@@ -11,7 +11,7 @@ nnoremap <leader>h <Esc>:call ToggleHardMode()<CR>
 
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
-map t :bn<CR>
+map <C-t> :bn<CR>
 
 let g:NERDTreeQuitOnOpen = 1
 let g:NERDTreeMinimalUI = 1
