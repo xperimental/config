@@ -1,4 +1,4 @@
 ControlMaster auto
 ControlPath /tmp/ssh-%r@%h:%p
-ControlPersist yes
+ControlPersist 1h
 
