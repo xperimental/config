@@ -1,7 +1,7 @@
 [user]
 	name = Robert Jacob
 [alias]
-	glog = log --oneline --color --graph --date=relative --decorate
+	glog = log --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --color --graph --date=relative --decorate
 	nuke = reset --hard HEAD
 	prefs = config --system -e
 	options = config --global -e
