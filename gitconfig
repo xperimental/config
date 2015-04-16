@@ -12,6 +12,7 @@
 	rbi = rebase --interactive
 	ap = add -p
 	unmerged = log --oneline --graph --decorate --simplify-by-decoration --boundary --branches --not
+	ff = merge --ff-only
 [color]
 	ui = auto
 [push]
