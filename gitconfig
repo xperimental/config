@@ -8,6 +8,7 @@
 	co = checkout
 	st = status
 	ci = commit
+	ciane = commit --amend --no-edit
 	rb = rebase
 	rbi = rebase --interactive
 	ap = add -p
