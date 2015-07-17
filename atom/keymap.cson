@@ -1,0 +1,4 @@
+'atom-text-editor':
+  "cmd-y": "editor:delete-line"
+  "alt-shift-up": "editor:move-line-up"
+  "alt-shift-down": "editor:move-line-down"

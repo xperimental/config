@@ -1,0 +1,36 @@
+"*":
+  "exception-reporting":
+    userId: "2fdcb0fd-bc8c-eaba-5a72-67bcbcb244d7"
+  "release-notes":
+    viewedVersion: "0.75.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "2f932548a836d656e0776c21dc9e8fea615f6a82"
+  editor:
+    showInvisibles: true
+    tabLength: 4
+    invisibles: {}
+    showIndentGuide: true
+    scrollPastEnd: true
+    preferredLineLength: 120
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    useReactEditor: true
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "go-plus":
+    goPath: "~/go"
+  "go-rename": {}
+  minimap:
+    absoluteMode: true
+    plugins:
+      "git-diff": true
+  "tree-view":
+    hideVcsIgnoredFiles: true
