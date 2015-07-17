@@ -17,6 +17,10 @@ target/
 # JS Libraries
 node_modules/
 
+# Gradle
+.gradle/
+build/
+
 # Other
 YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
 
