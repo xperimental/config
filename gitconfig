@@ -12,8 +12,11 @@
 	rb = rebase
 	rbi = rebase --interactive
 	ap = add -p
+	rp = reset -p
 	unmerged = log --oneline --graph --decorate --simplify-by-decoration --boundary --branches --not
 	ff = merge --ff-only
+	hart = reset --hard
+	last = diff HEAD^
 [color]
 	ui = auto
 [push]

@@ -32,5 +32,4 @@
     absoluteMode: true
     plugins:
       "git-diff": true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
