@@ -16,6 +16,7 @@ target/
 
 # JS Libraries
 node_modules/
+bower_components/
 
 # Gradle
 .gradle/
@@ -23,4 +24,5 @@ build/
 
 # Other
 YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
+.c9/
 

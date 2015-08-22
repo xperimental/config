@@ -23,3 +23,5 @@
 	default = current
 [pull]
 	rebase = true
+[core]
+	editor = vim
