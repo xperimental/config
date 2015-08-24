@@ -1,3 +1,9 @@
+Host localhost
+ControlMaster no
+ControlPath none
+ControlPersist no
+
+Host *
 ControlMaster auto
 ControlPath /tmp/ssh-%r@%h:%p
 ControlPersist 1h
