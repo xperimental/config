@@ -1,5 +1,6 @@
 # Backup
 *~
+*.orig
 
 # Mac OSX
 .DS_Store
