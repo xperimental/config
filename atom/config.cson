@@ -14,6 +14,7 @@
     showIndentGuide: true
     scrollPastEnd: true
     preferredLineLength: 120
+    fontSize: 13
   core:
     ignoredNames: [
       ".git"
@@ -33,3 +34,4 @@
     plugins:
       "git-diff": true
   "tree-view": {}
+  "autocomplete-plus": {}
