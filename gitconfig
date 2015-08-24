@@ -16,7 +16,7 @@
 	unmerged = log --oneline --graph --decorate --simplify-by-decoration --boundary --branches --not
 	ff = merge --ff-only
 	hart = reset --hard
-	last = diff HEAD^
+	last = diff HEAD^..HEAD
 [color]
 	ui = auto
 [push]
