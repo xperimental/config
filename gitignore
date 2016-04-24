@@ -12,7 +12,6 @@
 
 # Binaries
 bin/
-gen/
 target/
 
 # JS Libraries
@@ -22,8 +21,10 @@ bower_components/
 # Gradle
 .gradle/
 build/
+local.properties
 
 # Other
 YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
 .c9/
+.vscode/
 
