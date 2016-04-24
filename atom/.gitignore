@@ -3,3 +3,5 @@
 /storage/
 /compile-cache/
 /packages/
+/blob-store/
+/git-time-machine/

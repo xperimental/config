@@ -1,37 +1,57 @@
 "*":
-  "exception-reporting":
-    userId: "2fdcb0fd-bc8c-eaba-5a72-67bcbcb244d7"
-  "release-notes":
-    viewedVersion: "0.75.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "2f932548a836d656e0776c21dc9e8fea615f6a82"
-  editor:
-    showInvisibles: true
-    tabLength: 4
-    invisibles: {}
-    showIndentGuide: true
-    scrollPastEnd: true
-    preferredLineLength: 120
-    fontSize: 13
+  "autocomplete-plus": {}
+  build: {}
   core:
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
     ]
-    useReactEditor: true
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
     ]
+    useReactEditor: true
+  deprecated:
+    tool:
+      cargo: true
+  editor:
+    invisibles: {}
+    lineHeight: 1.4
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "2fdcb0fd-bc8c-eaba-5a72-67bcbcb244d7"
+  "file-icons":
+    coloured: false
   "go-plus":
     goPath: "~/go"
-  "go-rename": {}
+  "go-rename":
+    path: "/Users/rjacob/go/bin/gorename"
+  linter: {}
+  "linter-eslint": {}
+  "linter-rust": {}
+  "markdown-preview":
+    useGitHubStyle: true
+  metrics:
+    userId: "2f932548a836d656e0776c21dc9e8fea615f6a82"
   minimap:
     absoluteMode: true
+    displayMinimapOnLeft: true
     plugins:
       "git-diff": true
+  racer:
+    racerBinPath: "/Users/rjacob/bin/racer"
+  "release-notes":
+    viewedVersion: "0.75.0"
   "tree-view": {}
-  "autocomplete-plus": {}
+  welcome:
+    showOnStartup: false
+".ini.source":
+  editor:
+    preferredLineLength: 120
