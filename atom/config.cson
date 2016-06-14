@@ -16,6 +16,7 @@
     tool:
       cargo: true
   editor:
+    fontSize: 15
     invisibles: {}
     lineHeight: 1.4
     preferredLineLength: 120
