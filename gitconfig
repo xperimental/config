@@ -18,6 +18,7 @@
 	ff = merge --ff-only
 	hart = reset --hard
 	last = diff HEAD^..HEAD
+	atom ="!f() { atom `git rev-parse --show-toplevel`; }; f"
 [color]
 	ui = auto
 [push]
