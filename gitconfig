@@ -19,6 +19,8 @@
 	hart = reset --hard
 	last = diff HEAD^..HEAD
 	atom ="!f() { atom `git rev-parse --show-toplevel`; }; f"
+	stree = "!f() { stree `git rev-parse --show-toplevel`; }; f"
+	root = rev-parse --show-toplevel
 [color]
 	ui = auto
 [push]
