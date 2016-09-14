@@ -53,6 +53,14 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+".dockerfile.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".dockerignore.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
 ".ini.source":
   editor:
     preferredLineLength: 120
