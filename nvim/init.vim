@@ -1,5 +1,7 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'fatih/vim-go'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
@@ -7,6 +9,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
 Plug 'fatih/molokai'
 call plug#end()
+
+let g:EditorConfig_exclude_patterns = ['fugitive://.*']
 
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
