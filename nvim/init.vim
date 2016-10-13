@@ -51,6 +51,8 @@ autocmd FileType go nmap <Leader>r <Plug>(go-run)
 autocmd FileType go nmap <Leader>t <Plug>(go-test)
 autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
 autocmd FileType go nmap <Leader>i <Plug>(go-info)
+autocmd FileType go nmap <Leader>d :GoDef<CR>
+autocmd FileType go nmap <Leader>x :GoDefPop<CR>
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()
