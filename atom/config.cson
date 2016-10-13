@@ -7,6 +7,7 @@
       ".svn"
       ".DS_Store"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "atom-dark-syntax"
@@ -16,6 +17,7 @@
     tool:
       cargo: true
   editor:
+    fontFamily: "Noto Mono"
     fontSize: 15
     invisibles: {}
     lineHeight: 1.4
@@ -31,12 +33,15 @@
   "file-icons":
     coloured: false
   "go-plus":
+    currentPanelHeight: "12.380952380952381vh"
     goPath: "~/go"
   "go-rename":
     path: "/Users/rjacob/go/bin/gorename"
-  linter: {}
+  linter:
+    errorPanelHeight: 43
   "linter-eslint": {}
   "linter-rust": {}
+  "linter-shellcheck": {}
   "markdown-preview":
     useGitHubStyle: true
   metrics:
