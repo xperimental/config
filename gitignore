@@ -23,6 +23,9 @@ bower_components/
 /build/
 local.properties
 
+# Go
+debug.test
+
 # Other
 YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
 .c9/
