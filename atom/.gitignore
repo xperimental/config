@@ -6,3 +6,4 @@
 /blob-store/
 /git-time-machine/
 nohup.out
+package-deps-state.json
