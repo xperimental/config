@@ -32,13 +32,17 @@
     userId: "2fdcb0fd-bc8c-eaba-5a72-67bcbcb244d7"
   "file-icons":
     coloured: false
+  "go-config":
+    gopath: "~/go"
   "go-plus":
     currentPanelHeight: "12.380952380952381vh"
     goPath: "~/go"
+    test:
+      coverageDisplayMode: "gutter"
+      coverageHighlightMode: "covered-and-uncovered"
   "go-rename":
     path: "/Users/rjacob/go/bin/gorename"
-  linter:
-    errorPanelHeight: 43
+  linter: {}
   "linter-eslint": {}
   "linter-rust": {}
   "linter-shellcheck": {}
@@ -55,6 +59,7 @@
     racerBinPath: "/Users/rjacob/bin/racer"
   "release-notes":
     viewedVersion: "0.75.0"
+  "tester-go": {}
   "tree-view": {}
   welcome:
     showOnStartup: false
