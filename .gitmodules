@@ -25,3 +25,6 @@
 [submodule "vim/bundle/vim-scala"]
 	path = vim/bundle/vim-scala
 	url = git://github.com/derekwyatt/vim-scala
+[submodule "bash-git-prompt"]
+	path = bash-git-prompt
+	url = git://github.com/magicmonty/bash-git-prompt.git
