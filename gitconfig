@@ -21,6 +21,8 @@
 	atom ="!f() { atom `git rev-parse --show-toplevel`; }; f"
 	stree = "!f() { stree `git rev-parse --show-toplevel`; }; f"
 	root = rev-parse --show-toplevel
+	publish = push origin HEAD:refs/for/master
+	pulp = pull -p
 	largest = "!git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | awk '/^blob/ {print substr($0,6)}' | sort --numeric-sort --key=2 -r | less"
 [color]
 	ui = auto
