@@ -26,6 +26,9 @@ set number
 set hidden
 set showcmd
 set autowrite
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 let mapleader="\<SPACE>"
 
