@@ -18,8 +18,8 @@
 	ff = merge --ff-only
 	hart = reset --hard
 	last = diff HEAD^..HEAD
-	atom ="!f() { atom `git rev-parse --show-toplevel`; }; f"
 	stree = "!f() { stree `git rev-parse --show-toplevel`; }; f"
+	sm = "!f() { smerge `git rev-parse --show-toplevel`; }; f"
 	root = rev-parse --show-toplevel
 	publish = push origin HEAD:refs/for/master
 	pulp = pull -p
