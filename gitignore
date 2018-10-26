@@ -32,4 +32,5 @@ YOUR JREBEL LIMITED LICENSE HAS EXPIRED.error
 .vscode/
 .vs/
 npm-debug.log
+.ipynb_checkpoints/
 
