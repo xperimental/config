@@ -32,3 +32,5 @@
 	rebase = true
 [core]
 	editor = vim
+[submodule]
+	recurse = true
