@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -e -u -o pipefail
+
+readonly server=$1
+session=$(ssh "$server" -- tmux ls &>/dev/null && echo ok || echo fail)
+readonly session
+
+if [ "$session" == "ok" ]; then
+  command="attach-session"
+else
+  command="new-session"
+fi
+readonly command
+
+exec mosh "$server" -- tmux "$command"
