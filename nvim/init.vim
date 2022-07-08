@@ -8,7 +8,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
-Plug 'fatih/molokai'
 call plug#end()
 
 let g:EditorConfig_exclude_patterns = ['fugitive://.*']
@@ -17,8 +16,6 @@ let g:airline_theme='term'
 let g:airline#extensions#tabline#enabled = 1
 
 let g:rehash256 = 1
-let g:molokai_original = 1
-colorscheme molokai
 
 set number
 set hidden
