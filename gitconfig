@@ -12,6 +12,8 @@
 	ciane = commit --amend --no-edit
 	rb = rebase
 	rbi = rebase --interactive
+	rbc = rebase --continue
+	mt = mergetool
 	ap = add -p
 	rp = reset -p
 	unmerged = log --oneline --graph --decorate --simplify-by-decoration --boundary --branches --not
