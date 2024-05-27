@@ -26,7 +26,7 @@
 	publish = push origin HEAD:refs/for/master
 	pulp = pull -p
 	fa = fetch --all -p
-	roomba = clean -dxe .idea -e bin
+	roomba = clean -dxe .idea
 	largest = "!git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | awk '/^blob/ {print substr($0,6)}' | sort --numeric-sort --key=2 -r | less"
 [color]
 	ui = auto
